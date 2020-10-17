@@ -18,7 +18,7 @@ function setup() {
 
 	//plinkos
 	for(var y = 30;y<=400;y+=70){
-		for(var x = 0 +a;x < 480;x+=30){
+		for(var x = 0 +a;x < 480;x+=60){
 			plinkos.push(new Plinko(x,y,7));
 		}
 		if(a == 0){
