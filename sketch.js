@@ -17,7 +17,7 @@ function setup() {
 	ground = new Stabox(240,790,480,20);
 
 	//plinkos
-	for(var y = 0;y<=400;y+=70){
+	for(var y = 30;y<=400;y+=70){
 		for(var x = 0 +a;x < 480;x+=30){
 			plinkos.push(new Plinko(x,y,7));
 		}
@@ -40,7 +40,7 @@ function draw() {
 	background(127.5);
 
 	if(frameCount%60 == 0){
-		particles.push(new Particle(random(230,250),0,8))
+		particles.push(new Particle(random(210,270),0,8))
 	}
 
 	for(var i = 0;i<=plinkos.length;i++){
